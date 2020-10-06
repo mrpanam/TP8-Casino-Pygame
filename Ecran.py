@@ -8,7 +8,6 @@ color_fond= (0, 255, 255)
 while 1:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            run= False
             quit()
 
     ecran.fill(color_fond)
